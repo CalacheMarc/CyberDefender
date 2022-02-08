@@ -35,7 +35,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Using load balancing ensures that the application will be highly available and reliable, in addition to restricting traffic to the network.  Load Balancers provide security functions such as to help prevent DoS and DDoS attacks and overload of servers by, also, using a "health probe" to detect faulty servers and redistributes to those functioning properly.
 
 
-Using a Jump Box has an advantage of increasing security. Before connecting to other servers it provides the only gateway for access ("fanning in") to network infrastructure reducing size of the potential attack surface.
+Using a Jumpbox has an advantage of increasing security. Before connecting to other servers it provides the only gateway for access ("fanning in") to network infrastructure reducing size of the potential attack surface.
 
 The Jump Box is a 'hardened," secure server to be used only for system administrator's tasks thus minimizing threat penetrations into the walls of a private network to withstand malicious attacks or threats.
 
